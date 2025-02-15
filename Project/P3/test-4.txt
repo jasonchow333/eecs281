@@ -1,0 +1,29 @@
+CREATE table 4 string int double bool name scale random cool
+INSERT INTO table 4 ROWS
+lol 234 9.3 true
+lmao 2 232.3 false
+love 35 79.5 true
+linbei 150 900 false
+GENERATE FOR table hash INDEX ON name
+GENERATE FOR table bst INDEX ON scale
+GENERATE FOR table hash INDEX ON scale
+PRINT FROM table 4 cool scale cool name WHERE scale > 30
+GENERATE FOR table bst INDEX ON scale
+PRINT FROM table 4 cool scale cool name WHERE scale > 30
+DELETE FROM table WHERE random < 10
+INSERT INTO table 2 ROWS
+laozi 66 66.9 true
+lll 88 88.5 true
+DELETE FROM table WHERE cool = false
+PRINT FROM table 3 random name cool WHERE scale > 66
+PRINT FROM table 3 random lmao cool WHERE scale > 66
+CREATE table1 3 string int string animal weight name
+INSERT INTO table1 3 ROWS
+dog 66 bao
+cat 35 hannah
+lion 233 simba
+JOIN table1 AND table WHERE weight = scale AND PRINT 3 scale 2 name 2 animal 1
+JOIN table AND table1 WHERE weight = scale AND PRINT 3 scale 2 name 2 animal 1
+JOIN table AND table1 WHERE scale = weight AND PRINT 3 scale 1 name 2 name 1
+WHO LET THE DOGS OUT
+QUIT

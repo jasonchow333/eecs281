@@ -1,0 +1,25 @@
+% % New table cities with column(s) name state population area is_capital? created
+% Added 7 rows to cities from position 0 to 6
+% name state is_capital? 
+Ann_Arbor Michigan false 
+Lansing Michigan true 
+Miami Florida false 
+San_Francisco California false 
+Albany New_York true 
+Chicago Illinois false 
+St_Louis Missouri false 
+Printed 7 matching rows from cities
+% name state 
+San_Francisco California 
+Chicago Illinois 
+Printed 2 matching rows from cities
+% Deleted 2 rows from cities
+% name state 
+Ann_Arbor Michigan 
+Lansing Michigan 
+Miami Florida 
+Albany New_York 
+St_Louis Missouri 
+Printed 5 matching rows from cities
+% Table cities removed
+% Thanks for being silly!

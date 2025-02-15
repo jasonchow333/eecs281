@@ -1,0 +1,26 @@
+% % New table cities with column(s) name cool created
+% Error during CREATE: Cannot create already existing table cities
+% Error during INSERT: citi does not name a table in the database
+% Added 2 rows to cities from position 0 to 1
+% Error during GENERATE: citi does not name a table in the database
+% Error during GENERATE: nam does not name a column in cities
+% Created bst index for table cities on column cool, with 2 distinct keys
+% Error during PRINT: citi does not name a table in the database
+% Error during PRINT: citi does not name a table in the database
+% Error during PRINT: bool does not name a column in cities
+% Error during PRINT: bool does not name a column in cities
+% Printed 1 matching rows from cities
+% New table city with column(s) NAME people average dool state created
+% Added 4 rows to city from position 0 to 3
+% Created bst index for table city on column NAME, with 3 distinct keys
+% Error during JOIN: citie does not name a table in the database
+% Error during JOIN: nam does not name a column in cities
+% Error during JOIN: NAMe does not name a column in city
+% Printed 1 rows from joining cities to city
+% Error during DELETE: citi does not name a table in the database
+% Error during DELETE: bool does not name a column in cities
+% Deleted 1 rows from cities
+% Printed 1 rows from joining cities to city
+% Error during REMOVE: citie does not name a table in the database
+% Table city removed
+% Thanks for being silly!

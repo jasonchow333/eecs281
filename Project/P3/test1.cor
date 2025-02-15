@@ -1,0 +1,49 @@
+% % New table cities with column(s) name state population area is_capital? created
+% Added 7 rows to cities from position 0 to 6
+% Added 1 rows to cities from position 7 to 7
+% Error during INSERT: citie does not name a table in the database
+% Error: unrecognized command
+% name state 
+Ann_Arbor Michigan 
+Lansing Michigan 
+Miami Florida 
+San_Francisco California 
+Albany New_York 
+Chicago Illinois 
+St_Louis Missouri 
+Ann_Arbor Michigan 
+Printed 8 matching rows from cities
+% name population is_capital? 
+Miami 453579 false 
+San_Francisco 864816 false 
+Chicago 2705000 false 
+St_Louis 315685 false 
+Printed 4 matching rows from cities
+% New table city with column(s) name state population area is_capital? created
+% Added 8 rows to city from position 0 to 7
+% Deleted 3 rows from city
+% name state 
+Miami Michigan 
+Miami Florida 
+San_Francisco California 
+Chicago Illinois 
+St_Louis Missouri 
+Printed 5 matching rows from city
+% name population is_capital? 
+Miami 193874 false 
+Miami 453579 false 
+San_Francisco 864816 false 
+Chicago 2705000 false 
+St_Louis 315685 false 
+Printed 5 rows from joining cities to city
+% Created bst index for table city on column name, with 4 distinct keys
+% name population is_capital? 
+Miami 193874 false 
+Miami 453579 false 
+San_Francisco 864816 false 
+Chicago 2705000 false 
+St_Louis 315685 false 
+Printed 5 rows from joining cities to city
+% Table cities removed
+% Table city removed
+% Thanks for being silly!

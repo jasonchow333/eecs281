@@ -1,0 +1,35 @@
+CREATE table 4 string int bool double name idx cool random
+INSERT INTO table 8 ROWS
+456 23 false 66.9
+2 -23 true 88.6
+3 23 false 66.9
+456 -23 true 88.6
+45 23 false 66.9
+4567 -23 true 88.6
+4 23 false 66.9
+45 -23 true 88.6
+CREATE table1 4 string int bool double name idx cool random
+INSERT INTO table1 7 ROWS
+456 23 false 66.9
+2 -23 true 88.6
+3 23 false 66.9
+4567 -23 true 88.6
+456 23 false 66.9
+4567 -23 true 88.6
+4 23 false 66.9
+GENERATE FOR table bst INDEX ON name1
+GENERATE FOR table bst INDEX ON random1
+PRINT FROM table 4 name idx cool random WHERE random = 66.9
+PRINT FROM table 4 name idx cool random WHERE random = 66.3
+PRINT FROM table 4 name idx cool random WHERE random < 66.3
+PRINT FROM table 4 name idx cool random WHERE random > 66.3
+GENERATE FOR table bst INDEX ON random
+PRINT FROM table 4 name idx cool random WHERE random = 66.9
+PRINT FROM table 4 name idx cool random WHERE random = 66.3
+PRINT FROM table 4 name idx cool random WHERE random < 66.3
+PRINT FROM table 4 name idx cool random WHERE random > 66.3
+DELETE FROM table WHERE random = 66.9
+DELETE FROM table WHERE random > 66.9
+DELETE FROM table WHERE random < 66.9
+JOIN table1 AND table WHERE idx = idx AND PRINT 3 name 1 idx 2 cool 1
+QUIT

@@ -1,0 +1,33 @@
+#error output test
+CREATE cities 2 string bool name cool
+CREATE cities 2 string bool name cool
+INSERT INTO citi 8 ROWS
+INSERT INTO cities 2 ROWS
+lol true
+lmal false
+GENERATE FOR citi bst INDEX ON name
+GENERATE FOR cities bst INDEX ON nam
+GENERATE FOR cities bst INDEX ON cool
+PRINT FROM citi 2 name cool ALL
+PRINT FROM citi 2 name cool WHERE bool = true
+PRINT FROM cities 2 name cool WHERE bool = true
+PRINT FROM cities 2 name bool WHERE cool = true
+PRINT FROM cities 2 name cool WHERE cool = true
+CREATE city 5 string int double bool string NAME people average dool state
+INSERT INTO city 4 ROWS
+lol 2 20.3 true Michigan
+lmao 3 2039.3 true Ohio
+love 4 204.3 true Illinois
+lmao 6 230.3 false California
+GENERATE for city bst INDEX ON NAME
+JOIN citie AND city WHERE name = NAME AND PRINT 3 NAME 2 people 2 cool 1
+JOIN cities AND city WHERE nam = NAME AND PRINT 3 NAME 2 people 2 cool 1
+JOIN cities AND city WHERE name = NAME AND PRINT 3 NAMe 2 people 2 cool 1
+JOIN cities AND city WHERE name = NAME AND PRINT 3 NAME 2 people 2 cool 1
+DELETE FROM citi WHERE cool = false
+DELETE FROM cities WHERE bool = false
+DELETE FROM cities WHERE cool = false
+JOIN cities AND city WHERE name = NAME AND PRINT 3 NAME 2 people 2 cool 1
+REMOVE citie
+REMOVE city
+QUIT

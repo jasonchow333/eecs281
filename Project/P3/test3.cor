@@ -1,0 +1,41 @@
+% New table table with column(s) name scale random cool created
+% Added 4 rows to table from position 0 to 3
+% name scale cool 
+lol 234 true 
+linbei 150 false 
+Printed 2 matching rows from table
+% Created bst index for table table on column scale, with 4 distinct keys
+% name scale cool 
+linbei 150 false 
+lol 234 true 
+Printed 2 matching rows from table
+% name scale cool 
+lol 234 true 
+love 35 true 
+Printed 2 matching rows from table
+% name scale cool 
+lol 234 true 
+love 35 true 
+Printed 2 matching rows from table
+% Created hash index for table table on column cool, with 2 distinct keys
+% name scale cool 
+lol 234 true 
+love 35 true 
+Printed 2 matching rows from table
+% New table table1 with column(s) scale cool name random random1 name1 created
+% Added 4 rows to table1 from position 0 to 3
+% Error during JOIN: random1 does not name a column in table
+% name scale random1 
+lol 69 908.9 
+lmao 1209 9.2 
+love 53 47.5 
+love 150 93.4 
+Printed 4 rows from joining table to table1
+% Created bst index for table table1 on column name, with 3 distinct keys
+% name scale random1 
+lol 69 908.9 
+lmao 1209 9.2 
+love 53 47.5 
+love 150 93.4 
+Printed 4 rows from joining table to table1
+% Thanks for being silly!

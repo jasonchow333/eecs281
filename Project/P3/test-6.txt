@@ -1,0 +1,31 @@
+CREATE table 4 string int string int name index type comp
+INSERT INTO table 4 ROWS
+lion 1 animal 2
+animal 2 dolphin 3
+dolphin 3 whale 4
+whale 4 lion 1
+JOIN table AND table WHERE name = type AND PRINT 4 name 1 index 2 type 1 comp 2
+JOIN table AND table WHERE index = comp AND PRINT 4 name 1 index 2 type 1 comp 2
+GENERATE FOR table hash INDEX ON type
+GENERATE FOR table bst INDEX ON type
+GENERATE FOR table hash INDEX ON name
+JOIN table AND table WHERE name = type AND PRINT 4 name 1 index 2 type 1 comp 2
+JOIN table AND table WHERE index = comp AND PRINT 4 name 1 index 2 type 1 comp 2
+DELETE FROM table WHERE comp = 1
+JOIN table AND table WHERE name = type AND PRINT 4 name 1 index 2 type 1 comp 2
+JOIN table AND table WHERE index = comp AND PRINT 4 name 1 index 2 type 1 comp 2
+INSERT INTO table 2 ROWS
+wahle 4 crocodile 5
+crocodile 5 lion 1
+JOIN table AND table WHERE name = type AND PRINT 4 name 1 index 2 type 1 comp 2
+JOIN table AND table WHERE index = comp AND PRINT 4 name 1 index 2 type 1 comp 2
+GENERATE FOR table bst INDEX ON comp
+PRINT FROM table 2 type comp WHERE comp < 3
+PRINT FROM table 2 type comp WHERE comp > 3
+PRINT FROM table 2 type comp WHERE comp = 3
+GENERATE FOR table hash INDEX ON index
+PRINT FROM table 2 type comp WHERE index < 3
+PRINT FROM table 2 type comp WHERE comp > 3
+PRINT FROM table 2 type comp WHERE index > 3
+PRINT FROM table 2 type comp WHERE index = 3
+QUIT

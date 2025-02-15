@@ -1,0 +1,34 @@
+CREATE table 2 string int ref val
+INSERT INTO table 9 ROWS
+one 1
+Two 2
+three 3
+Four 4
+five 5
+Six 6
+six 6
+Six 7
+seven 7
+PRINT FROM table 2 ref val WHERE ref > three
+PRINT FROM table 2 ref val WHERE ref < three
+PRINT FROM table 2 ref val WHERE ref = three
+GENERATE FOR table hash INDEX ON ref
+PRINT FROM table 2 ref val WHERE ref > three
+PRINT FROM table 2 ref val WHERE ref < three
+PRINT FROM table 2 ref val WHERE ref = three
+PRINT FROM table 2 ref val WHERE ref > six
+PRINT FROM table 2 ref val WHERE val = 7
+PRINT FROM table 2 ref val WHERE val < -233
+PRINT FROM table 2 ref val WHERE val > 5
+GENERATE FOR table bst INDEX ON val
+PRINT FROM table 2 ref val WHERE val = 7
+PRINT FROM table 2 ref val WHERE val < -233
+PRINT FROM table 2 ref val WHERE val > 5
+PRINT FROM table 2 ref val WHERE val < 5
+DELETE FROM table WHERE val > 5
+INSERT INTO table 1 ROWS
+Eight 8
+PRINT FROM table 2 ref val WHERE val = 5
+PRINT FROM table 2 ref val WHERE val < 4
+PRINT FROM table 2 ref val WHERE val > 3
+QUIT
